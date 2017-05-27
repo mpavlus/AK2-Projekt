@@ -3,7 +3,7 @@ eerns(A,P) =
 \\\\\\\\\\   TRZEBA USTALIC BAZE RNS !!!   \\\\\\\\\\\
 B=[3,7,13,19]; \\ <--- podanie bazy RNS
 M_od_i=vector(length(B));
-M_od_i[1]=B[1]; \\ podanie potrzebne do poniższej pętli
+M_od_i[1]=B[1]; \\ podanie potrzebne do poniĹĽszej pÄ™tli
 M_od_i=for(i=2,length(B), M_od_i[i]=M_od_i[i-1]*B[i]);
 l= ; \\ ilosc bitow operatorow 
 U1=vector(length(A)); \\ wypelnienie wektora U1 zerami
